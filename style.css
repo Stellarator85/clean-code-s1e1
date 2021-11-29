@@ -10,10 +10,12 @@
   display: block;
   text-align: right;
 }
-.poster-section img {
+.poster-section,
+img {
   width: 100%;
 }
-.poster-section .more-info {
+.poster-section,
+.more-info {
   font-family: fantasy, cursive;
 }
 
@@ -123,31 +125,40 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-.delete img {
+.delete,
+img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.delete,
+img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks,
+label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul,
+li,
+input[type="text"] {
   display: none;
 }
 
-ul .edit-mode input[type="text"] {
+ul,
+.edit-mode,
+input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul .edit-mode label {
+ul,
+.edit-mode,
+label {
   display: none;
 }
