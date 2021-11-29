@@ -9,19 +9,21 @@
           media="screen" 
           charset="utf-8">
   </head>
-  <body>
-    <div class="poster-section">
-      <img src="./eisenhower-matrix.jpg">
+  <body class="page">
+    <section class="poster-section">
+      <img src="./eisenhower-matrix.jpg"
+           alt="The Eisenhower Matrix a.k.a Urgent-Important Matrix">
       <a class="more-info" 
          href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="text-section">
+    </section>
+    <section class="text-section">
       <p id="add-item-block">
         <label for="new-task">Add Item</label>
         <div class="task-row-wrapper">
-          <input id="new-task" 
-                 class="task" 
-                 type="text">
+          <input 
+            id="new-task" 
+            class="task" 
+            type="text">
           <button>Add</button>
         </div>
       </p>
@@ -34,18 +36,22 @@
                  class="task">
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg"
+                 alt="remove item">
           </button>
         </li>
-        <li class="edit-mode">
+        <li 
+          class="edit-mode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
-          <input type="text" 
-                 value="Go Shopping" 
-                 class="task">
+          <input 
+            type="text" 
+            value="Go Shopping" 
+            class="task">
           <button class="edit">Save</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg"
+                 alt="remove item">
           </button>
         </li>
       </ul>
@@ -54,15 +60,17 @@
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
-          <input type="text" 
-                 class="task">
+          <input 
+            type="text" 
+            class="task">
           <button class="edit">Edit</button>
           <button class="delete">
-            <img src="./remove.svg">
+            <img src="./remove.svg"
+                 alt="remove item">
           </button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
